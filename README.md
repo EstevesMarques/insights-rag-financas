@@ -4,8 +4,6 @@ Um projeto **RAG (Retrieval-Augmented Generation)** com pipeline modular em Pyth
 
 > 🧠 Implementa memória de conversas, persistência vetorial com FAISS, chunking customizado, e consumo real de API pública (BCB/SGS).
 
----
-
 ## 🚀 Funcionalidades
 
 - 🔍 **Busca de dados reais da SELIC** via [API pública do Banco Central](https://dadosabertos.bcb.gov.br/dataset/series-temporais).
@@ -17,8 +15,6 @@ Um projeto **RAG (Retrieval-Augmented Generation)** com pipeline modular em Pyth
 - 💾 **Persistência local** dos vetores e do histórico da conversa.
 - 🛠️ **Estrutura baseada em estratégia (Strategy Pattern)**, facilitando testes e trocas de componentes.
 - 🧪 **Prompt interativo via terminal** com comandos especiais.
-
----
 
 ## 🗂️ Estrutura do Projeto
 
@@ -53,8 +49,6 @@ insights-rag-financas/
 │   └── memory.py            # Memória resumida com LLM
 ````
 
----
-
 ## 🧪 Exemplo de uso
 
 ```bash
@@ -68,8 +62,6 @@ Comandos disponíveis: 'sair', 'atualizar', 'resetar'
 🧠 Resposta: A taxa SELIC atualmente está em 10,50% ao ano, conforme os dados atualizados do Banco Central.
 ```
 
----
-
 ## 🧠 Comandos especiais disponíveis
 
 | Comando     | Ação                                                     |
@@ -78,7 +70,6 @@ Comandos disponíveis: 'sair', 'atualizar', 'resetar'
 | `atualizar` | Refaz a chamada à API e reconstrói o índice vetorial     |
 | `resetar`   | Apaga a memória de conversa (resumo interativo anterior) |
 
----
 
 ## ⚙️ Configuração
 
@@ -117,16 +108,12 @@ CHUNK_SIZE=500
 CHUNK_OVERLAP=50
 ```
 
----
-
 ## 🛠️ Tecnologias utilizadas
 
 * [LangChain](https://www.langchain.com/)
 * [OpenAI API](https://platform.openai.com/)
 * [FAISS](https://github.com/facebookresearch/faiss)
 * [BCB API (SGS)](https://dadosabertos.bcb.gov.br/dataset/series-temporais)
-
----
 
 ## ✍️ Futuras melhorias
 
@@ -135,13 +122,9 @@ CHUNK_OVERLAP=50
 * [ ] Logs com mais detalhes e exportáveis
 * [ ] Salvamento de histórico em JSON
 
----
-
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
-
----
 
 ## 👨‍💻 Autor
 
