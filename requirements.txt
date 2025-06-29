@@ -1,0 +1,13 @@
+# LangChain e dependências de IA
+langchain>=0.1.14
+langchain-community
+langchain_openai
+openai>=1.13.3
+faiss-cpu>=1.7.4
+
+# Utilitários
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Tipagem e logging
+tqdm>=4.66.0
